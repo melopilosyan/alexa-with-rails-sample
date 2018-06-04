@@ -3,7 +3,7 @@
 
 ### Ruby/Rails version
 ```
-Ruby 2.5.0
+Ruby 2.3.1
 Rails 4.2.7
 ```
 
