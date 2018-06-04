@@ -25,6 +25,8 @@ gem 'puma', '~> 3.11'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'doorkeeper'
+
 # Use controller-level `respond_to' feature
 gem 'responders', '~> 2.0'
 

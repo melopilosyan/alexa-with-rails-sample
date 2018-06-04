@@ -1,12 +1,17 @@
 Rails.application.routes.draw do
 
+  use_doorkeeper
+
   namespace :api, defaults: {format: :json} do
     namespace :v1 do
       namespace :alexa do
-        get :say_hi, controller: :base
+        post :say_hi, controller: :base
       end
     end
   end
+
+  # The +root_path+ needs in doorkeeper
+  root 'doorkeeper/applications#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -1,0 +1,13 @@
+defaults: &defaults
+  SKILLS_IDS:
+    # List your skils and their IDs as key/value pairs
+    LetsTestMe: 'amzn1.ask.skill.5e139e5b-ebbb-4669-8648-c9f51c1ed842'
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
