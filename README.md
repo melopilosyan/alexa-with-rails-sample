@@ -21,4 +21,7 @@ Rails 4.2.7
 
 === Deployment instructions
 
-=== ...
+=== External resources
+https://blog.echobind.com/how-to-easily-create-custom-skills-for-alexa-b16ddd53e269
+
+https://developer.amazon.com/alexa-skills-kit
