@@ -70,10 +70,6 @@ Now it's just a helper module, but has all chances to be extended as a separate 
 And that is what I'm planning to do. Feel free to request any functionality :wink:
 
 
-### Database creation
-
-### Database initialization
-
 ### Deployment
 ##### Ruby/Rails version
 Ruby `2.3.1` Rails `4.2.7`
@@ -116,8 +112,6 @@ And the root URL is pointed on doorkeeper's default applications page, where you
 Use [online echo device simulator](https://echosim.io) if you don't have a real one.
 This is necessary in order to access your Alexa app dashboard and connect Alexa with your app created with doorkeeper.
 Otherwise you'll not be able to test the authenticated users requests flow.
-
-##### [Rails for API-only Applications](http://guides.rubyonrails.org/api_app.html)
 
 
 ### Special thanks
