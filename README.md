@@ -115,6 +115,6 @@ Otherwise you'll not be able to test the authenticated users requests flow.
 
 
 ### Special thanks
-to Manuel Acevedo for introducing me to Alexa.
+To Manuel Acevedo for introducing me to Alexa.
 
 [blog article]: https://blog.echobind.com/how-to-easily-create-custom-skills-for-alexa-b16ddd53e269
