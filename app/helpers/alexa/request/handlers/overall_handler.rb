@@ -11,7 +11,6 @@ module Alexa
         include Alexa::Request::Parsers
 
         attr_reader :params, :request_type, :response
-        attr_writer :response
 
         def initialize(params, user)
           @params = params
@@ -20,9 +19,9 @@ module Alexa
           super(user)
         end
 
-        # The block should receive a response JSON data in case of not authorized
+        # The block should return the response JSON data in case of not authorized
         # requests. If the request is not authorized other +on_###_request+ functions
-        # simple will drop their blocks and this message will be send to Alexa.
+        # simple will drop their blocks and this data will be send to Alexa.
         def on_unauthorized_request
           if block_given? && !authorized?
             @response = yield
