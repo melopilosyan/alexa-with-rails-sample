@@ -26,6 +26,7 @@ gem 'puma', '~> 3.11'
 # gem 'capistrano-rails', group: :development
 
 gem 'doorkeeper'
+gem 'devise'
 
 # Use controller-level `respond_to' feature
 gem 'responders', '~> 2.0'

@@ -1,7 +1,14 @@
+# All possible configurations for the Alexa Skills Kit
+# or Alexa app or whatever data regarding to Alexa goes here.
+#
+# You can access these data later on in the app through +ALEXA_CONFIG+ constant.
+# See config/initializers/alexa_config.rb
+#
 defaults: &defaults
   SKILLS_IDS:
-    # List your skils and their IDs as key/value pairs
-    LetsTestMe: 'amzn1.ask.skill.5e139e5b-ebbb-4669-8648-c9f51c1ed842'
+    # List your skills and their applicationIDs as key/value pairs.
+    # See app/helpers/alexa/request/validators/skill_validator.rb for details.
+    RubyLabsLLC: 'amzn1.ask.skill.b748b170-e423-4557-bab6-a9d93d1ef947'
 
 development:
   <<: *defaults

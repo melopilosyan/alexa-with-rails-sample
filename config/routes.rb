@@ -1,11 +1,12 @@
 Rails.application.routes.draw do
 
+  devise_for :users
   use_doorkeeper
 
   namespace :api, defaults: {format: :json} do
     namespace :v1 do
       namespace :alexa do
-        post :say_hi, controller: :base
+        post :handler, controller: :base
       end
     end
   end
