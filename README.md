@@ -114,7 +114,4 @@ This is necessary in order to access your Alexa app dashboard and connect Alexa 
 Otherwise you'll not be able to test the authenticated users requests flow.
 
 
-### Special thanks
-To Manuel Acevedo for introducing me to Alexa.
-
 [blog article]: https://blog.echobind.com/how-to-easily-create-custom-skills-for-alexa-b16ddd53e269
