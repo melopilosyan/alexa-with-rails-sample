@@ -20,7 +20,7 @@ Authorization URI:            RAILS_SERVER_DOMAIN/oauth/authorize
 Access Token URI:             RAILS_SERVER_DOMAIN/oauth/token
 Client ID:                    DOORKEEPER_APPLICATION_ID
 Client Secret:                DOORKEEPER_APPLICATION_SECRET
-Client Authentication Scheme: the_recommended_on
+Client Authentication Scheme: the_recommended_one
 ```
 
 This will allow Alexa to request a new refresh token after the current one has expired. So users don't have to authenticate
